@@ -1,0 +1,163 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+/* #d9{
+    display: flow-root;
+    flex-wrap: wrap;
+} */
+#d9{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background-color:rgb(14, 3, 3);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-image: url('https://www.coderus.com/wp-content/uploads/fly-images/996776/different-types-of-software-coderus-branded-image-576x9999.jpg'); */
+    /* background-size: cover; */
+}
+.toys{
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    border: 8px solid black;
+     overflow: hidden; 
+    position: relative;
+    /* background-image: url("https://tridizi.com/images/cardimage-3.png"); */
+
+
+
+}
+.toy-img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+
+}
+.toys-body{
+    width: 80%;
+    margin-left:20px;
+    /* margin-bottom: 5%; */
+    height: 95%;
+    /* top: 0; */
+    bottom:-70%;
+    position: absolute;
+   
+    backdrop-filter: blur(10px);
+  
+    border-radius: 15px;
+    color: white;
+    padding: 30px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transition: 2s;
+    
+}
+.car{
+    text-transform:uppercase ;
+    font-size: 30px;
+    font-family: 500;
+}
+.tittle{
+    text-transform: lowercase;
+    font-size: 26px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+.info{
+    margin: 40px 0;
+   
+    
+}
+.anil{
+   background-color: rgb(175, 175, 58);
+   padding:8px;
+   border-radius: 5px;
+   border: none;
+   inline-size: none;
+   text-transform: capitalize;
+   /* color:rgb(47, 15, 15); */
+   cursor: pointer;
+   width: 120px;
+
+}
+.toys:hover{
+#d5{
+display: none;
+}
+
+
+
+}
+.toys:hover{
+    #d6{
+    display: none;
+    }
+    
+    
+    
+    }
+    .toys:hover{
+        #d4{
+        display: none;
+        /* top: -20%; */
+        }
+        
+        
+        
+        }
+.toys:hover .toys-body{
+    bottom:0%;  
+    /* top:20%; */
+    /* transform: translateY(-50%);   */
+    
+}
+@media (max-width: 768px) {
+    .toys-body{
+        width: 90%;
+        height: 200px;
+    }
+
+}
+
+@media (max-width: 480px) {
+    .toys-body {
+        height: 150px;
+    }
+}
+#d4{
+    margin-top: 10px;
+    margin-left:150px;
+    border-radius:50%;
+    /* margin-bottom: -20%; */
+    font-size: 50px;
+    color: yellow;
+    border-radius: 50%;
+}
+#d5{
+    margin-top: 10px;
+    margin-left:150px;
+    border-radius:50%;
+    font-size: 50px;
+    color: yellow;
+    border-radius: 50%;
+}
+#d6{
+    margin-top: 10px;
+    margin-left:150px;
+    border-radius:50%;
+    font-size: 50px;
+    color: yellow;
+    border-radius: 50%;
+}
+
